@@ -1,7 +1,8 @@
-#######################
-# EZE-CRYPT 1.0       #
-# Author: Anonymous   #
-#######################
+#################################
+# EZE-CRYPT                     #
+# V 1.0 Author: Anonymous       #
+# V 2.0 Biznatch Enterprises    #
+#################################
 
 Encrypt/Decrypt (using a key generated from a string password) library written in PHP
 
