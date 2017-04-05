@@ -47,15 +47,12 @@ On Error GoTo handler
 
             End If
             DoEvents
-            Form18.Status = "CHAR #" & i
-            Form18.PB.Max = Len(TEXTT)
-            Form18.PB.Value = i
-            DoEvents
             e = Asc(Mid(TEXTT, i, 1))
             e = e + KEYVALS(1)
             e = e * KEYVALS(2)
             rstr = GENRANDOMCHAR(65, 90)
             estr = estr & rstr & e
+                                
         Next
         
     encryption = estr
