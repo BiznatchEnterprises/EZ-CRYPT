@@ -45,7 +45,6 @@ On Error GoTo handler
 
         For i = 1 To Len(TEXTT)
 
-            End If
             DoEvents
             e = Asc(Mid(TEXTT, i, 1))
             e = e + KEYVALS(1)
