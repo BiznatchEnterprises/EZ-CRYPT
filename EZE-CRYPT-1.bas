@@ -3,6 +3,8 @@
 '#     www.biznaturally.ca    #
 '##############################
 
+'Rewritten from: https://github.com/BiznatchEnterprises/EZE-CRYPT/blob/master/EZE-CRYPT-1.php
+
 Dim KEYVALS(2) As Long
 
 Function GENRANDOMCHAR(LOWLIMIT As Integer, HIGHLIMIT As Integer)
