@@ -1,4 +1,4 @@
-'####### EZE-CRYPT (VB6) ######
+'####### EZ-CRYPT (VB6) ######
 '#    Biznatch Enterprises    #
 '#     www.biznaturally.ca    #
 '##############################
