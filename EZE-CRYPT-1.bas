@@ -3,7 +3,7 @@
 '#     www.biznaturally.ca    #
 '##############################
 
-'VB6 Source code rewritten from: https://github.com/BiznatchEnterprises/EZE-CRYPT/blob/master/EZE-CRYPT-1.php
+'VB6 Source code rewritten from: https://github.com/JustinPercy/EZ-CRYPT
 
 Dim KEYVALS(2) As Long
 
