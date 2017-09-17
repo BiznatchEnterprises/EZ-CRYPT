@@ -1,11 +1,34 @@
 <?php
 //#######################
-//# EZE-CRYPT 1.0
-//# Author: Anonymous
+//# EZ-CRYPT 1.0
 //#######################
 
-//Encrypt/Decrypt (using a key generated from a string password) library written in PHP
-//This source-code was found serveral years ago without an author. If you made it, full credit will be given if proven.
+/* -----------------------------------------------  
+@Author: Developped by Chr1s@EZScripts.net  
+@Site: http://www.EZScripts.net/  
+-----------------------------------------------  
+
+How's the my encryption algorithm work:  
+
+First it will generate an encryption key with the string you supply:  
+
+Key 1 will be equal to the numerical value  
+of each character in your crypt key.  
+
+Key 2 will be equal to the length of your  
+crypt key.  
+
+For each character in the string you wish to encrypt, it will do the following mathematical calculations, where V is the final value of the encoded character and C is the value of the character currently encrypting:  
+
+V = C * Key1  
+V = V + Key2  
+
+It will then separate each character in the original string with a character between 65 and 90 (cap. letters).  
+
+To decrypt the string, it will do the opposite calculations, where V is the final value of the decrypted character and C is the value of the encrypted character:  
+
+V = V / Key1  
+V = C – Key2 */  
 
 // ---------------------- ENCRYPTION START ----------------------
 //Name: Encrypt()
