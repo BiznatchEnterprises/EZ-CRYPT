@@ -99,7 +99,7 @@ function keyvalue($CRYPT_KEY){
     $keyvalue = "";
     $keyvalue[1] = "0";
     $keyvalue[2] = "0";
-    for ($i=1; $i<strlen($CRYPT_KEY); $i++) {
+    for ($i=0; $i<strlen($CRYPT_KEY); $i++) {
     $curchr = ord(substr($CRYPT_KEY, $i, 1));
     $keyvalue[1] = $keyvalue[1] + $curchr;
     $keyvalue[2] = strlen($CRYPT_KEY);
